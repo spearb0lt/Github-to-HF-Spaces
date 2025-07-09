@@ -15,10 +15,10 @@ jobs:
 
       - name: Add Hugging Face remote
         run: |
-          git remote add space https://huggingface.co/spaces/your-hf-username/langchain-search-bot-from-github
+          git remote add space https://huggingface.co/spaces/spearb0lt/langchain-search-bot-from-github
 
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push --force https://your-hf-username:$HF_TOKEN@huggingface.co/spaces/your-hf-username/langchain-search-bot-from-github main
+          git push --force https://spearb0lt:$HF_TOKEN@huggingface.co/spaces/spearb0lt/langchain-search-bot-from-github main
