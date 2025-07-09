@@ -1,0 +1,7 @@
+gradio
+langchain
+langchain-groq
+langchain-community
+duckduckgo-search
+wikipedia
+arxiv
